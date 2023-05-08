@@ -1,0 +1,93 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 500px;
+  height: 400px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.otp-field {
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.imgc {
+  width: 100%;
+  max-width: 200px;
+  /* height: 200px; */
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+.btn-wrapper {
+  margin-bottom: 50px;
+}
+
+.wrapper p {
+  text-align: center;
+  font-size: small;
+  text-align: center;
+}
+
+.wrapper span {
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.wrapper h2 {
+  font-size: 25px;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    height: auto;
+    width: 300px;
+  }
+
+  .imgc {
+    max-width: 150px;
+    margin-top: 20px;
+  }
+
+  .wrapper p {
+    font-size: 12px;
+  }
+
+  .wrapper span {
+    font-size: 12px;
+  }
+
+  .wrapper h2 {
+    font-size: 20px;
+  }
+  .otp-field {
+    height: 35px;
+    width: 30px;
+    margin: 5px;
+  }
+}
