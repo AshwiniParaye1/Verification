@@ -7,7 +7,6 @@ body {
     "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
   background: url("../src/assets/grade6.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -20,4 +19,11 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@media screen and (max-width: 768px) {
+  /* Styles for screens smaller than 768px (e.g. mobile devices) */
+  body {
+    background-size: contain;
+  }
 }
