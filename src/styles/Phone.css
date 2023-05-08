@@ -5,7 +5,7 @@
   /* font-family: "Courier New", Courier, monospace; */
   outline: none;
   background: #e8e8e8;
-  box-shadow: 5px 5px 17px #c8c8c8, -5px -5px 17px #ffffff;
+  box-shadow: 5px 5px 17px #c8c8c8, -5px -5px 17px #c8c8c8;
   border: none;
   border-radius: 10px;
   transition: all 0.5s;
@@ -13,7 +13,7 @@
 }
 
 .input:focus {
-  background: #e8e8e8;
+  /* background: #e8e8e8; */
   box-shadow: inset 5px 5px 17px #c8c8c8, inset -5px -5px 17px #ffffff;
 }
 

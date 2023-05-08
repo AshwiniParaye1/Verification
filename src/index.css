@@ -7,13 +7,31 @@ body {
     "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url("../src/assets/grade6.jpg");
+  /* background: url("../src/assets/grade6.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   top: 0;
   left: 0;
-  position: relative;
+  position: relative; */
+
+  background: rgb(249, 172, 210);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(249, 172, 210, 1) 0%,
+    rgba(189, 217, 249, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(249, 172, 210, 1) 0%,
+    rgba(189, 217, 249, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(249, 172, 210, 1) 0%,
+    rgba(189, 217, 249, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f9acd2",endColorstr="#bdd9f9",GradientType=1);
 }
 
 code {
