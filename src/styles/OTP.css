@@ -66,7 +66,7 @@
   .wrapper {
     height: auto;
     width: 300px;
-    margin: 10px; /* Add equal margin from all sides */
+    margin: 40%; /* Add equal margin from all sides */
   }
 
   .imgc {
