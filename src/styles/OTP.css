@@ -8,7 +8,7 @@
   border-radius: 10px;
   max-width: 500px;
   height: 400px;
-  margin: 0 auto;
+  margin: auto; /* Set margin to auto to center the card */
   background: rgba(255, 255, 255, 0.1);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(15px);
@@ -62,11 +62,11 @@
 .wrapper h2 {
   font-size: 25px;
 }
-
 @media (max-width: 768px) {
   .wrapper {
     height: auto;
     width: 300px;
+    margin: 10px; /* Add equal margin from all sides */
   }
 
   .imgc {
@@ -85,6 +85,7 @@
   .wrapper h2 {
     font-size: 20px;
   }
+
   .otp-field {
     height: 35px;
     width: 30px;
